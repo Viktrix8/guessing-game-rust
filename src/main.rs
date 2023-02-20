@@ -6,7 +6,7 @@ fn main() {
     let random_number = rand::thread_rng().gen_range(1..=200);
 
     loop {
-        println!("Enter your guess: ");
+        println!("Enter your guess between 0 and 200: ");
         let mut guess = String::new();
 
         io::stdin()
